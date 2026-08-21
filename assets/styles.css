@@ -33,6 +33,7 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .section:has(> .two-col > .work) > .section-label { display:inline-block; color:var(--ink); background:var(--yellow); padding:.25rem .48rem; font-style:italic; letter-spacing:.035em; }
 .work h3 em { color:var(--yellow); font-weight:600; }
 .work-content > p:first-of-type { color:#d9dff2; }
+.artist { font-style:italic; color:var(--ink); font-weight:600; }
 .two-col { display:grid; grid-template-columns:1fr 1fr; gap:clamp(1.5rem,5vw,5rem); }.two-col > * { min-width:0; }
 .note { background:#eee9dd; padding:1.45rem; }.note h3 { margin-top:.1rem; }.note p:last-child { margin-bottom:0; }
 .question { border-left:7px solid var(--orange); padding:1.1rem 1.35rem; background:white; font-size:1.25rem; }.question strong { color:var(--orange); font:600 .72rem "DM Mono",monospace; display:block; text-transform:uppercase; margin-bottom:.45rem; }
