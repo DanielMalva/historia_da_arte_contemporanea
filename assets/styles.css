@@ -34,6 +34,11 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .work h3 em { color:var(--yellow); font-weight:600; }
 .work-content > p:first-of-type { color:#d9dff2; }
 .artist { font-style:italic; color:var(--ink); font-weight:600; }
+/* Na Aula 4, a leitura Cotton–Hessel é inserida após o bloco de Muholi. */
+main.wrap:has(img[src*="aula-04-image4"]) { display:flex; flex-direction:column; }
+main.wrap:has(img[src*="aula-04-image4"]) > section:nth-child(n+10) { order:2; }
+main.wrap:has(img[src*="aula-04-image4"]) > section:has(h2 > .artist) { order:1; }
+main.wrap:has(img[src*="aula-04-image5"]) > section:has(img[src*="aula-04-image5"]) > h2::after { content:"Embora Gustavo Caboco seja um artista homem, sua presença nesta aula é uma exceção deliberada: como artista Wapichana, sua pesquisa sobre a ausência indígena no Arquivo Histórico Wanda Svevo é decisiva para complexificar o problema do arquivo e deslocar o curso diante dos povos originários."; display:block; max-width:760px; color:var(--dark); font-family:"Source Serif 4", Georgia, serif; font-size:1.08rem; font-style:normal; font-weight:400; letter-spacing:0; line-height:1.38; margin-top:1rem; }
 .two-col { display:grid; grid-template-columns:1fr 1fr; gap:clamp(1.5rem,5vw,5rem); }.two-col > * { min-width:0; }
 .note { background:#eee9dd; padding:1.45rem; }.note h3 { margin-top:.1rem; }.note p:last-child { margin-bottom:0; }
 .question { border-left:7px solid var(--orange); padding:1.1rem 1.35rem; background:white; font-size:1.25rem; }.question strong { color:var(--orange); font:600 .72rem "DM Mono",monospace; display:block; text-transform:uppercase; margin-bottom:.45rem; }
