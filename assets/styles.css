@@ -28,9 +28,9 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .course-card p, .card p { font-size:1rem; margin-bottom:0; }.course-card a { display:block; height:100%; text-decoration:none; }
 .timeline { display:grid; grid-template-columns:140px 1fr; border-top:1px solid var(--muted); }
 .timeline > * { padding:1rem 0; border-bottom:1px solid var(--muted); }.timeline strong { color:var(--orange); font:600 .75rem "DM Mono",monospace; }
-.work { background:var(--ink); color:var(--paper); overflow:hidden; display:grid; grid-template-rows:minmax(230px,360px) auto; align-self:start; }
+.work { background:var(--ink); color:var(--paper); overflow:hidden; display:grid; grid-template-rows:auto auto; align-self:start; }
 .works { align-items:start; }
-.work img { width:100%; height:100%; object-fit:contain; object-position:top center; background:var(--ink); display:block; }.work-content { padding:1.2rem; align-self:start; }.work h3 { color:var(--paper); }.work p { font-size:.98rem; margin-bottom:.55rem; }.credit { color:#4b4a46; font-size:.8rem!important; }.work .credit { color:#d9dff2; }
+.work img { width:100%; height:auto; object-fit:contain; object-position:top center; background:var(--ink); display:block; }.work-content { padding:1.2rem; align-self:start; }.work h3 { color:var(--paper); }.work p { font-size:.98rem; margin-bottom:.55rem; }.credit { color:#4b4a46; font-size:.8rem!important; }.work .credit { color:#d9dff2; }
 .section:has(> .two-col > .work) > .section-label { display:inline-block; color:var(--ink); background:var(--yellow); padding:.25rem .48rem; font-style:italic; letter-spacing:.035em; }
 .work h3 em { color:var(--yellow); font-weight:600; }
 .work-content > p:first-of-type { color:#d9dff2; }
@@ -47,4 +47,4 @@ details { border-top:1px solid var(--muted); padding:1rem 0; } details:last-chil
 .method { background:var(--dark); color:var(--paper); }.method h2 { color:var(--paper); }.method .section-label { color:var(--yellow); }
 footer { background:var(--ink); color:var(--paper); padding:2.8rem max(1.4rem,calc((100vw - 1180px)/2)); font-size:.95rem; } footer p { max-width:800px; } footer .fine { color:#cbd2e7; font-size:.8rem; }
 body:has(img[src*="aula-04-image5"]) footer::before { content:"Agradecimentos\A Ao Arquivo Histórico Wanda Svevo da Fundação Bienal de São Paulo e, em especial, à pesquisadora e colaboradora do AHWS, Ana Helena G. Custódio."; white-space:pre-line; display:block; max-width:800px; border-top:1px solid #7080ae; padding-top:1.4rem; margin-bottom:1.4rem; font-size:.95rem; }
-@media (max-width:760px) { body { font-size:17px; } .hero, .page-head { padding-inline:1.4rem; }.hero:after,.page-head:after { right:-25%; top:-12%; } h1 { font-size:clamp(2.5rem,11vw,4.2rem); max-inline-size:100%; overflow-wrap:anywhere; }.course-grid,.cards,.works,.two-col { grid-template-columns:1fr; }.timeline { grid-template-columns:90px 1fr; }.work { grid-template-rows:280px auto; } }
+@media (max-width:760px) { body { font-size:17px; } .hero, .page-head { padding-inline:1.4rem; }.hero:after,.page-head:after { right:-25%; top:-12%; } h1 { font-size:clamp(2.5rem,11vw,4.2rem); max-inline-size:100%; overflow-wrap:anywhere; }.course-grid,.cards,.works,.two-col { grid-template-columns:1fr; }.timeline { grid-template-columns:90px 1fr; }.work { grid-template-rows:auto auto; } }
