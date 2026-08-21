@@ -7,13 +7,3 @@ document.querySelectorAll('[data-filter]').forEach((button) => {
     document.querySelectorAll('[data-filter]').forEach((item) => item.setAttribute('aria-pressed', item === button));
   });
 });
-
-if (window.location.pathname.endsWith('/aula-04.html')) {
-  const nav = document.querySelector('header nav');
-  if (nav) {
-    const link = document.createElement('a');
-    link.href = 'aula-04-cotton-hessel.html';
-    link.textContent = 'Cotton + Hessel';
-    nav.append(link);
-  }
-}
