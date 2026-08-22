@@ -35,6 +35,12 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .work h3 em { color:var(--yellow); font-weight:600; }
 .work-content > p:first-of-type { color:#d9dff2; }
 .artist { font-style:italic; color:var(--ink); font-weight:600; }
+.artwork-link { appearance:none; border:0; border-bottom:1px solid var(--orange); background:transparent; color:var(--ink); cursor:pointer; font:inherit; padding:0; text-align:left; }
+.artwork-link:hover, .artwork-link:focus-visible { color:var(--orange); outline:0; }
+.artwork-modal { width:min(92vw,760px); max-height:92vh; border:0; padding:1rem; background:var(--paper); box-shadow:0 1.3rem 4rem rgba(0,0,0,.35); }
+.artwork-modal::backdrop { background:rgba(20,25,42,.72); }
+.artwork-modal form { display:flex; justify-content:flex-end; margin-bottom:.6rem; }.modal-close { border:0; background:var(--ink); color:var(--paper); cursor:pointer; padding:.5rem .7rem; font:600 .75rem "DM Mono",monospace; }
+.artwork-modal img { display:block; width:auto; max-width:100%; max-height:72vh; margin:auto; }.artwork-modal p { margin:.75rem 0 0; font-size:.9rem; }
 /* Na Aula 4, a leitura Cotton–Hessel é inserida após o bloco de Muholi. */
 main.wrap:has(img[src*="aula-04-image4"]) { display:flex; flex-direction:column; }
 main.wrap:has(img[src*="aula-04-image4"]) > section:nth-child(n+10) { order:2; }
