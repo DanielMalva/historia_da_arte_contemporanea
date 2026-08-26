@@ -25,6 +25,7 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .course-grid, .cards, .works { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
 .course-card, .card { border-top:5px solid var(--orange); padding:1.25rem 1.2rem 1.45rem; background:white; min-height:210px; box-shadow:0 5px 0 rgba(24,38,79,.08); }
 .course-card h3 { margin-top:1rem; }.course-card .number { color:var(--orange); font:600 .75rem "DM Mono",monospace; }
+.course-map .card .number { color:var(--orange); font:600 .75rem "DM Mono",monospace; text-transform:uppercase; letter-spacing:.05em; }.course-map .card.current { background:var(--yellow); border-color:var(--ink); box-shadow:0 6px 0 var(--ink); }.course-map .card.current h3 { color:var(--ink); }.course-map .card.current .number { color:var(--ink); }
 .course-card p, .card p { font-size:1rem; margin-bottom:0; }.course-card a { display:block; height:100%; text-decoration:none; }
 .timeline { display:grid; grid-template-columns:140px 1fr; border-top:1px solid var(--muted); }
 .timeline > * { padding:1rem 0; border-bottom:1px solid var(--muted); }.timeline strong { color:var(--orange); font:600 .75rem "DM Mono",monospace; }
