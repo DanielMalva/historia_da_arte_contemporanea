@@ -39,7 +39,7 @@ h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem;
 .section:has(> .two-col > .work) > .section-label { display:inline-block; color:var(--ink); background:var(--yellow); padding:.25rem .48rem; font-style:italic; letter-spacing:.035em; }
 .work h3 em { color:var(--yellow); font-weight:600; }
 .work-content > p:first-of-type { color:#d9dff2; }
-.artist { font-style:italic; color:var(--ink); font-weight:600; }
+.artist { font-style:italic; color:var(--ink); font-weight:600; }.work .artist { color:var(--paper); }
 .artwork-link { appearance:none; border:0; border-bottom:1px solid var(--orange); background:transparent; color:var(--ink); cursor:pointer; font:inherit; padding:0; text-align:left; }
 .artwork-link:hover, .artwork-link:focus-visible { color:var(--orange); outline:0; }
 .artwork-modal { width:min(92vw,760px); max-height:92vh; border:0; outline:0; padding:0; background:transparent; box-shadow:none; }
