@@ -18,6 +18,10 @@ nav a { text-decoration:none; border-bottom:1px solid transparent; } nav a:hover
 .section { margin-bottom:clamp(3.5rem,7vw,6rem); }
 .expanded-page .wrap { padding-block:clamp(2rem,4vw,3.6rem); }
 .expanded-page .section { margin-bottom:clamp(1.4rem,3vw,2.8rem); }
+@media (min-width:761px) {
+  .expanded-page .wrap { padding-block:clamp(1.35rem,2.3vw,2.45rem); }
+  .expanded-page .section { margin-bottom:clamp(.4rem,1vw,.9rem); }
+}
 .section-label { color:var(--orange); font:600 .75rem "DM Mono",monospace; text-transform:uppercase; letter-spacing:.08em; }
 h2 { color:var(--ink); font-size:clamp(2rem,4vw,3.55rem); letter-spacing:-.04em; line-height:1.1; max-width:850px; margin:.6rem 0 1.35rem; text-wrap:balance; }
 h3 { color:var(--ink); font-size:1.45rem; line-height:1.08; margin-bottom:.5rem; }
